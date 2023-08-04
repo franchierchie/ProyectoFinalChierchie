@@ -1,15 +1,17 @@
 import { Badge } from '@mui/material';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
+import { NavLink } from 'react-router-dom';
 
-export const CartWidget = ({ amount }) => {
+export const CartWidget = () => {
+
   return (
     <div className="navbar-item">
         <div className="buttons">
-            <a href="#" className="button is-link">
-                <Badge badgeContent={ amount } color="secondary">
+            <NavLink to="/cart" className="button is-success is-fullwidth-mobile">
+                <Badge badgeContent={ 0 } color="secondary">
                     <ShoppingCartOutlinedIcon color="white" />
                 </Badge>
-            </a>
+            </NavLink>
         </div>
     </div>
   )

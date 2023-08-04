@@ -1,3 +1,5 @@
+import { useState } from 'react';
+import { NavLink } from 'react-router-dom';
 import { CartWidget } from './';
 
 import 'bulma/css/bulma.min.css';
@@ -5,20 +7,27 @@ import '../../index.css';
 
 export const NavBar = () => {
 
+    const [isOpen, setIsOpen] = useState(false);
+
+    const handleClick = () => {
+        setIsOpen(prev => !prev);
+    }
+
     return (
     <header>
         <nav className="navbar is-link p-2" role="navigation" aria-label="main navigation">
             <div className="navbar-brand">
-                <a className="navbar-item has-text-weight-bold is-size-4" href="./">
+                <NavLink className="navbar-item has-text-weight-bold is-size-4" to="/">
                     TechOasis
-                </a>
+                </NavLink>
 
                 <div
                     role="button"
-                    className="navbar-burger" // is-active
+                    className={`navbar-burger ${ isOpen ? 'is-active' : '' }`}
                     aria-label="menu"
                     aria-expanded="false"
                     data-target="navbarBasicExample"
+                    onClick={ handleClick }
                 >
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
@@ -26,28 +35,31 @@ export const NavBar = () => {
                 </div>
             </div>
 
-            <div id="navbarBasicExample" className="navbar-menu"> {/* is-active */}
+            <div id="navbarBasicExample" className={`navbar-menu ${ isOpen ? 'is-active' : '' }`}>
                 <div className="navbar-start">
-                    <a className="navbar-item">
+                    <NavLink className="navbar-item" to="/">
                         Home
-                    </a>
-
-                    <a className="navbar-item">
-                        Products
-                    </a>
+                    </NavLink>
                 </div>
 
                 <div className="navbar-end">
-                    <CartWidget amount={ 4 } />
+                    <CartWidget />
 
-                    <div className="navbar-item">
+                    <div className="navbar-item pt-0">
                         <div className="buttons">
-                            <a className="button is-link">
+                            <NavLink
+                                className="button is-link is-fullwidth-mobile mb-2-mobile mr-0-mobile"
+                                to="/register"
+                            >
                                 <strong>Sign up</strong>
-                            </a>
-                            <a className="button is-light">
+                            </NavLink>
+
+                            <NavLink
+                                className="button is-light is-fullwidth-mobile"
+                                to="/login"
+                            >
                                 Log in
-                            </a>
+                            </NavLink>
                         </div>
                     </div>
                 </div>

@@ -1,0 +1,202 @@
+[
+    {
+        "id": 1,
+        "name": "Intel Core i5 12400F 4.4GHz Turbo Socket 1700 Alder Lake",
+        "price": 130000,
+        "img": "/products/Intel-Core i5-12400F.jpg",
+        "category": "procesadores",
+        "amount": 1
+    },
+    {
+        "id": 2,
+        "name": "AMD RYZEN 5 3600 4.2GHz Turbo AM4 Wraith Stealth Cooler",
+        "price": 93900,
+        "img": "/products/AMD-RYZEN-5-3600.jpg",
+        "category": "procesadores",
+        "amount": 1
+    },
+    {
+        "id": 3,
+        "name": "AMD RYZEN 3 3200G 4.0GHz Turbo + Radeon Vega 8 AM4 Wraith Stealth Cooler",
+        "price": 64900,
+        "img": "/products/AMD-RYZEN-3-3200G.jpg",
+        "category": "procesadores",
+        "amount": 1
+    },
+    {
+        "id": 4,
+        "name": "Mother ASUS PRIME H610M-E D4 S1700",
+        "price": 65000,
+        "img": "/products/ASUS-PRIME-H610M-E-D4-S1700.jpg",
+        "category": "mothers",
+        "amount": 1
+    },
+    {
+        "id": 5,
+        "name": "Mother Gigabyte A520M-K V2 DDR4 AM4",
+        "price": 63230,
+        "img": "/products/Gigabyte-A520M-K-V2-DDR4-AM4.jpg",
+        "category": "mothers",
+        "amount": 1
+    },
+    {
+        "id": 6,
+        "name": "Mother Asrock B450 Steel Legend AM4 DDR4 RGB",
+        "price": 79990,
+        "img": "/products/Asrock-B450-Steel-Legend-AM4-DDR4-RGB.jpg",
+        "category": "mothers",
+        "amount": 1
+    },
+    {
+        "id": 7,
+        "name": "Placa de Video ASUS GeForce GTX 1660 SUPER 6GB GDDR6 OC TUF",
+        "price": 204900,
+        "img": "/products/ASUS-GeForce-GTX-1660-SUPER.jpg",
+        "category": "gpu",
+        "amount": 1
+    },
+    {
+        "id": 8,
+        "name": "Placa de Video XFX Radeon RX 6650 XT 8GB GDDR6 Speedster SWFT 210",
+        "price": 192200,
+        "img": "/products/XFX-Radeon-RX-6650-XT.jpg",
+        "category": "gpu",
+        "amount": 1
+    },
+    {
+        "id": 9,
+        "name": "Memoria Corsair DDR4 16GB (2x8GB) 2666MHz Vengeance RGB PRO Black",
+        "price": 40900,
+        "img": "/products/Corsair-DDR4-16GB-2x8GB-2666MHz-Vengeance-RGB-PRO.jpg",
+        "category": "ram",
+        "amount": 1
+    },
+    {
+        "id": 10,
+        "name": "Memoria Corsair DDR4 16GB (2x8GB) 3200MHz Vengeance RGB PRO TUF Gaming",
+        "price": 49100,
+        "img": "/products/Corsair-DDR4-16GB-2x8GB-3200MHz-Vengeance-RGB-PRO.jpg",
+        "category": "ram",
+        "amount": 1
+    },
+    {
+        "id": 11,
+        "name": "Disco Solido SSD M.2 ADATA 1TB Legend 960 MAX 7400MB/s NVMe PCIe Gen4 x4 HeatSink",
+        "price": 68599,
+        "img": "/products/SSD-M2-ADATA-1TB.jpg",
+        "category": "almacenamiento",
+        "amount": 1
+    },
+    {
+        "id": 12,
+        "name": "Disco Sólido SSD Kingston 960GB A400 500MB/s",
+        "price": 33780,
+        "img": "/products/SSD-Kingston-960GB-A400.jpg",
+        "category": "almacenamiento",
+        "amount": 1
+    },
+    {
+        "id": 13,
+        "name": "Cooler CPU Cooler Master ML240L V2 Water Cooling",
+        "price": 46150,
+        "img": "/products/Cooler-Master-ML240L-V2.jpg",
+        "category": "refrigeracion",
+        "amount": 1
+    },
+    {
+        "id": 14,
+        "name": "Cooler CPU ID-Cooling SE-224-XTS White",
+        "price": 20340,
+        "img": "/products/ID-Cooling-SE-224-XTS.jpg",
+        "category": "refrigeracion",
+        "amount": 1
+    },
+    {
+        "id": 15,
+        "name": "Gabinete Deepcool MATREXX 70 ADD-RGB 3F",
+        "price": 54700,
+        "img": "/products/Deepcool-MATREXX-70.jpg",
+        "category": "gabinetes",
+        "amount": 1
+    },
+    {
+        "id": 16,
+        "name": "Gabinete Lian Li Lancool 205 Mesh W White",
+        "price": 41750,
+        "img": "/products/Lian-Li-Lancool-205-Mesh.jpg",
+        "category": "gabinetes",
+        "amount": 1
+    },
+    {
+        "id": 17,
+        "name": "Fuente Deepcool 700W DA700 80 Plus Bronze",
+        "price": 32999,
+        "img": "/products/Deepcool-700W-DA700.jpg",
+        "category": "psu",
+        "amount": 1
+    },
+    {
+        "id": 18,
+        "name": "Fuente Gigabyte 650W 80 Plus Bronze P650B",
+        "price": 36800,
+        "img": "/products/Gigabyte-650W-P650B.jpg",
+        "category": "psu",
+        "amount": 1
+    },
+    {
+        "id": 19,
+        "name": "Monitor Gamer AOC 24\" 24G2Z 240Hz IPS Freesync",
+        "price": 135499,
+        "img": "/products/AOC-24-24G2Z-240Hz.jpg",
+        "category": "monitores",
+        "amount": 1
+    },
+    {
+        "id": 20,
+        "name": "Monitor Gamer Samsung 25\" G4 Odyssey 240Hz IPS Full HD GSync FreeSync",
+        "price": 134399,
+        "img": "/products/Samsung-25-G4-Odyssey-240Hz.jpg",
+        "category": "monitores",
+        "amount": 1
+    },
+    {
+        "id": 21,
+        "name": "Teclado Mecanico Redragon Fizz Pro K616-RGB 60% White/Pink",
+        "price": 24790,
+        "img": "/products/Redragon-Fizz-Pro-K616.jpg",
+        "category": "perifericos",
+        "amount": 1
+    },
+    {
+        "id": 22,
+        "name": "Teclado Mecanico Logitech K835 TKL Switch Blue",
+        "price": 28999,
+        "img": "/products/Logitech-K835-TKL.jpg",
+        "category": "perifericos",
+        "amount": 1
+    },
+    {
+        "id": 23,
+        "name": "Teclado Mecanico HP HyperX Alloy Elite 2 RGB Switch Red LA",
+        "price": 83999,
+        "img": "/products/HyperX-Alloy-Elite-2.jpg",
+        "category": "perifericos",
+        "amount": 1
+    },
+    {
+        "id": 24,
+        "name": "Mouse Logitech G203 Lightsync RGB White",
+        "price": 16999,
+        "img": "/products/Logitech-G203.jpg",
+        "category": "perifericos",
+        "amount": 1
+    },
+    {
+        "id": 25,
+        "name": "Mouse Logitech G305 Lightspeed Wireless Black",
+        "price": 26000,
+        "img": "/products/Logitech-G305.jpg",
+        "category": "perifericos",
+        "amount": 1
+    }
+]
