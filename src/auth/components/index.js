@@ -1,3 +1,4 @@
 
 export * from './FormPage';
-export * from './FormField';
+export * from './AuthInput';
+export * from './ButtonsContainer';

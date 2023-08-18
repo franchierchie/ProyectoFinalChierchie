@@ -1,7 +1,7 @@
 
 export const FormPage = ({ children, name }) => {
     return (
-    <section className="hero is-fullheight">
+    <section className="hero is-fullheight has-background-link">
         <div className="hero-body">
             <div className="container">
                 <div className="columns is-centered">
