@@ -1,16 +1,7 @@
 import React from 'react';
-import { useDispatch } from 'react-redux';
 import { NavLink } from 'react-router-dom';
-import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
-import { addToCart } from '../../../store/ecommerce';
 
 export const ProductCard = ({ product, name, imageSrc, price, id }) => {
-
-  const dispatch = useDispatch();
-
-  const handleCartClick = () => {
-      dispatch( addToCart( product ) );
-  }
 
   return (
     <div className="card p-4">
